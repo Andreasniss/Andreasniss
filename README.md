@@ -15,3 +15,7 @@ I am a Senior Solutions Architect in Munich with more than 15 years across techn
 [Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen)
 
 Personal projects and views are my own and do not represent AWS.
+
+## Contributing safely
+
+Read [the publication privacy boundary](PRIVACY.md) and install the local Git hooks before uploading changes. Private authoring stays outside public branches and PRs; intentional demo prompts and reviewed engineering evidence remain public.
