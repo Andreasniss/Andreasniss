@@ -89,6 +89,11 @@ class ContentChecks(unittest.TestCase):
         for key in ['negative' + '_prompt', 'generation' + 'Prompt', 'image' + 'Prompt', 'baseStyle' + 'Prompt']:
             self.assertTrue(privacy.inspect('data.json', json.dumps({key: 'recipe'}).encode()))
 
+    def test_prefixed_privacy_directives(self):
+        for label in ['Private' + ' Only', 'Private' + ' Editorial']:
+            for directive in ['do not publish', 'confidential', 'internal']:
+                self.assertTrue(privacy.inspect('note.txt', ('Note: ' + label + ' ' + directive).encode()))
+
     def test_upstream_example_exception_is_exact_and_narrow(self):
         data = ('image' + '_prompt: dict\n' + '/ro' + 'ot/.cache/pip').encode()
         baseline = {'example.txt': hashlib.sha256(data).hexdigest()}

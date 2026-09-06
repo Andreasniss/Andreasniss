@@ -16,7 +16,7 @@ def git(*args):
 
 
 PATTERNS = [
-    ('private marker', re.compile(rb'(?m)\bPRIVATE[ _-]+(?:ONLY|EDITORIAL)[ \t]*(?=[^A-Za-z\s]|$)|(?-i:PRIVATE[ ](?:ONLY|EDITORIAL))|PRIVATE_(?:ONLY|EDITORIAL)|PRIVATE[-]EDITORIAL|BEGIN[ ]PRIVATE|(?-i:PRIVATE[-]ONLY)|(?:^[ \t]*(?:(?:#+|//|<!--)[ \t]*)?|["\x27])(?:PRIVATE[-_](?:ONLY|EDITORIAL)|PRIVATE[ ](?:ONLY|EDITORIAL)(?=[:;.!]|\b[ \t]*$|[ \t]+(?:do[ ]not[ ]publish|confidential|internal)\b)|BEGIN[ ]PRIVATE)\b|^[ \t]*(?:#+[ \t]*)?PRIVATE[ ]EDITORIAL[ \t]*$', re.I)),
+    ('private marker', re.compile(rb'(?m)PRIVATE[ ](?:ONLY|EDITORIAL)[ \t]+(?:do[ ]not[ ]publish|confidential|internal)\b|\bPRIVATE[ _-]+(?:ONLY|EDITORIAL)[ \t]*(?=[^A-Za-z\s]|$)|(?-i:PRIVATE[ ](?:ONLY|EDITORIAL))|PRIVATE_(?:ONLY|EDITORIAL)|PRIVATE[-]EDITORIAL|BEGIN[ ]PRIVATE|(?-i:PRIVATE[-]ONLY)|(?:^[ \t]*(?:(?:#+|//|<!--)[ \t]*)?|["\x27])(?:PRIVATE[-_](?:ONLY|EDITORIAL)|PRIVATE[ ](?:ONLY|EDITORIAL)(?=[:;.!]|\b[ \t]*$|[ \t]+(?:do[ ]not[ ]publish|confidential|internal)\b)|BEGIN[ ]PRIVATE)\b|^[ \t]*(?:#+[ \t]*)?PRIVATE[ ]EDITORIAL[ \t]*$', re.I)),
     ('private key', re.compile(rb'-----BEGIN (?:[A-Z0-9]+ )*PRIVATE KEY(?: BLOCK)?-----')),
     ('AWS access key', re.compile(rb'\b(?:AKIA|ASIA)[A-Z0-9]{16}\b')),
     ('GitHub token', re.compile(rb'\bgh[pousr]_[A-Za-z0-9]{30,}\b|\bgithub_pat_[A-Za-z0-9_]{40,}\b')),
