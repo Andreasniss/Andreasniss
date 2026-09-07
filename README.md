@@ -20,3 +20,5 @@ The [AI-Assisted Software Delivery series](https://andreasnissen.dev/series/ai-a
 [Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen)
 
 Personal projects and views are my own and do not represent AWS.
+
+Before editing this profile repository, read [PRIVACY.md](PRIVACY.md) and run its staged and outgoing-commit checks before any public upload.
