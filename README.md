@@ -6,16 +6,19 @@ I am a Senior Solutions Architect in Munich with more than 15 years across techn
 
 ## Start here
 
-- [andreasnissen.dev](https://andreasnissen.dev): canonical portfolio, project evidence, and writing
+- [AndreasNissen.dev](https://andreasnissen.dev): canonical portfolio, project evidence, and writing
 - [Runbook Relay WebMCP Demo](https://github.com/Andreasniss/runbook-relay-webmcp): bounded tools, durable server policy, scoped approval, replay protection, hash-linked receipts, and a 50-task evaluation contract
 - [7DayFocus AI Delivery Lab](https://github.com/Andreasniss/7dayfocus-ai-delivery-lab): bounded model proposals, deterministic evaluations, explicit approval, and an inspectable delivery artifact chain
 - [Agent Reliability Lab](https://github.com/Andreasniss/Mistral-playground): allow-listed tools, bounded retries, privacy-first telemetry, and credential-free evaluations
+- [AI SDLC Skill](https://github.com/Andreasniss/ai-sdlc-skill): a reusable delivery workflow connecting intent, implementation, verification, and review through durable artifacts
 - [Writing](https://andreasnissen.dev/writing/): architecture decisions, tested project analysis, and operating lessons
+
+## How I deliver with AI
+
+The [AI-Assisted Software Delivery series](https://andreasnissen.dev/series/ai-assisted-software-delivery/) connects shared repository instructions, delivery methods, and pull-request evidence. The [skill walkthrough](https://andreasnissen.dev/projects/ai-sdlc-skill/) shows how to apply that workflow.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen)
 
 Personal projects and views are my own and do not represent AWS.
 
-## Contributing safely
-
-Read [the publication privacy boundary](PRIVACY.md) and install the local Git hooks before uploading changes. Private authoring stays outside public branches and PRs; intentional demo prompts and reviewed engineering evidence remain public.
+Before editing this profile repository, read [PRIVACY.md](PRIVACY.md) and run its staged and outgoing-commit checks before any public upload.
