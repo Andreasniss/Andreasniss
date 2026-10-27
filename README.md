@@ -1,24 +1,22 @@
 # Andreas Nissen
 
-I turn model capability into enterprise systems people can evaluate, adopt, and operate, and I show the code, tests, failure analysis, and delivery decisions behind them.
+I build and evaluate AI applications, then share the code, tests and decisions behind them.
 
-I am a Senior Solutions Architect in Munich with more than 15 years across technology, architecture, and customer delivery. My technical focus is agent reliability, evaluation, MCP, identity, policy controls, observability, and human approval.
+Senior Solutions Architect in Munich, with more than 15 years across technology, architecture and customer delivery. My focus is making AI systems useful, inspectable and controllable.
 
-## Start here
+**[Explore my projects and writing](https://andreasnissen.dev)**
 
-- [AndreasNissen.dev](https://andreasnissen.dev): canonical portfolio, project evidence, and writing
-- [Runbook Relay WebMCP Demo](https://github.com/Andreasniss/runbook-relay-webmcp): bounded tools, durable server policy, scoped approval, replay protection, hash-linked receipts, and a 50-task evaluation contract
-- [7DayFocus AI Delivery Lab](https://github.com/Andreasniss/7dayfocus-ai-delivery-lab): bounded model proposals, deterministic evaluations, explicit approval, and an inspectable delivery artifact chain
-- [Agent Reliability Lab](https://github.com/Andreasniss/agent-reliability-lab): allow-listed tools, bounded retries, privacy-first telemetry, and credential-free evaluations
-- [AI SDLC Skill](https://github.com/Andreasniss/ai-sdlc-skill): a reusable delivery workflow connecting intent, implementation, verification, and review through durable artifacts
-- [Writing](https://andreasnissen.dev/writing/): architecture decisions, tested project analysis, and operating lessons
+## Try or inspect a project
 
-## How I deliver with AI
+- [Runbook Relay](https://github.com/Andreasniss/runbook-relay-webmcp): try an incident demo where an agent proposes an action and the server checks approval.
+- [7DayFocus](https://github.com/Andreasniss/7dayfocus-ai-delivery-lab): a weekly planner with suggestions you review before applying.
+- [Agent Reliability Lab](https://github.com/Andreasniss/agent-reliability-lab): explore tool controls and failure handling without an API key.
+- [AI SDLC Skill](https://github.com/Andreasniss/ai-sdlc-skill): experimental instructions for coding agents, with published evaluation limits.
 
-The [AI-Assisted Software Delivery series](https://andreasnissen.dev/series/ai-assisted-software-delivery/) connects shared repository instructions, delivery methods, and pull-request evidence. The [skill walkthrough](https://andreasnissen.dev/projects/ai-sdlc-skill/) shows how to apply that workflow.
+## Read or connect
 
-[Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen)
+[Writing](https://andreasnissen.dev/writing/) covers architecture decisions and lessons from these projects. The [AI-Assisted Software Delivery series](https://andreasnissen.dev/series/ai-assisted-software-delivery/) connects repository instructions, delivery methods and review evidence.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen).
 
 Personal projects and views are my own and do not represent AWS.
-
-Before editing this profile repository, read [PRIVACY.md](PRIVACY.md) and run its staged and outgoing-commit checks before any public upload.
