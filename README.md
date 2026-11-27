@@ -1,22 +1,18 @@
 # Andreas Nissen
 
-I build and evaluate AI applications, then share the code, tests and decisions behind them.
+I help enterprises and their integration partners decide where to use AI and what an agent can do on its own. In my public labs, you can try those decisions for yourself.
 
-Senior Solutions Architect in Munich, with more than 15 years across technology, architecture and customer delivery. My focus is making AI systems useful, inspectable and controllable.
+**[Try Runbook Relay](https://runbook-relay.andreasnissen.dev/)**. Start the guided demo and watch the server block a simulated incident change. Approve that exact change, run it, then retry. The server returns the original result. [See how the approval check works](https://github.com/Andreasniss/runbook-relay-webmcp).
 
-**[Explore my projects and writing](https://andreasnissen.dev)**
+## Why I removed my coding-agent skill
 
-## Try or inspect a project
+I tested whether adding my delivery instructions helped a coding agent complete four small Python tasks. In the revised trial, the agent passed all 12 runs with the skill and all 12 with repository instructions alone. Adding the skill increased the median number of tokens processed per run by 48.2%. I removed it from my website workflow. [Read the experiment](https://andreasnissen.dev/projects/ai-sdlc-skill/).
 
-- [Runbook Relay](https://github.com/Andreasniss/runbook-relay-webmcp): try an incident demo where an agent proposes an action and the server checks approval.
-- [7DayFocus](https://github.com/Andreasniss/7dayfocus-ai-delivery-lab): a weekly planner with suggestions you review before applying.
-- [Agent Reliability Lab](https://github.com/Andreasniss/agent-reliability-lab): explore tool controls and failure handling without an API key.
-- [AI SDLC Skill](https://github.com/Andreasniss/ai-sdlc-skill): experimental instructions for coding agents, with published evaluation limits.
+## Two more labs to explore
 
-## Read or connect
+- [Agent Reliability Lab](https://github.com/Andreasniss/agent-reliability-lab) lets you trace a proposed tool call through the Python code that decides whether it runs. Try the preview without an API key.
+- [7DayFocus](https://github.com/Andreasniss/7dayfocus-ai-delivery-lab) is a weekly planner for web and Android. Ask it to move a task, then review the proposed change before applying it to your week.
 
-[Writing](https://andreasnissen.dev/writing/) covers architecture decisions and lessons from these projects. The [AI-Assisted Software Delivery series](https://andreasnissen.dev/series/ai-assisted-software-delivery/) connects repository instructions, delivery methods and review evidence.
-
-[Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen).
+[More projects and writing](https://andreasnissen.dev/) · [Connect on LinkedIn](https://www.linkedin.com/in/andreasnissen)
 
 Personal projects and views are my own and do not represent AWS.
