@@ -6,7 +6,7 @@ I help enterprises and their integration partners decide where to use AI and wha
 
 ## Why I removed my coding-agent skill
 
-I tested whether adding my delivery instructions helped a coding agent complete four small Python tasks. In the revised trial, the agent passed all 12 runs with the skill and all 12 with repository instructions alone. Adding the skill increased the median number of tokens processed per run by 48.2%. I removed it from my website workflow. [Read the experiment](https://andreasnissen.dev/projects/ai-sdlc-skill/).
+I tested whether adding my delivery instructions helped a coding agent complete four small Python tasks. In the revised trial, the agent passed all 12 runs with the skill and all 12 with repository instructions alone. Adding the skill increased the median number of tokens processed per run by 48.2%. I removed it from my website workflow. [Read the experiment](https://andreasnissen.dev/projects/ai-sdlc-skill/) or [explore the skill repository](https://github.com/Andreasniss/ai-sdlc-skill).
 
 ## Two more labs to explore
 
