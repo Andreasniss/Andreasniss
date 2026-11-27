@@ -2,7 +2,7 @@
 
 I help enterprises and their integration partners decide where to use AI and what an agent can do on its own. In my public labs, you can try those decisions for yourself.
 
-**[Try Runbook Relay](https://runbook-relay.andreasnissen.dev/)**. Start the guided demo and watch the server block a simulated incident change. Approve that exact change, run it, then retry. The server returns the original result. [See how the approval check works](https://github.com/Andreasniss/runbook-relay-webmcp).
+**[Try Runbook Relay](https://runbook-relay.andreasnissen.dev/)**. Start the guided demo and watch the server block a simulated incident change. Approve that change, run it, and compare the two receipts. Curious what happens if the client loses the response? [See the recorded retry test](https://github.com/Andreasniss/runbook-relay-webmcp/blob/f1b8a89cca91a3a1bcff7a4e6a04fa2e62e71299/evals/control-plane/verification.json#L101-L110).
 
 ## Why I removed my coding-agent skill
 
